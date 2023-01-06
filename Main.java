@@ -2,7 +2,7 @@ public class Main {
 	public static void main(String[] args) {
 		Customer customer;
                 String SenCustomerName = "Raul Villarin";
-                String RegCustomerName = "Ronald Reforma";
+                String RegCustomerName = "Irgieneo Calderon";
                 
                
 		RegularCustomer regularCustomer = new RegularCustomer(RegCustomerName, 5000);
@@ -15,4 +15,4 @@ public class Main {
 		customer = seniorCustomer;
 		System.out.println(customer.getName()+" "+customer.calculateBill());
 	}
-}
+ }
